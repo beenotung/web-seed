@@ -1,0 +1,5 @@
+= web-seed
+
+minimal standalone web (no backend, no framework)
+
+If you need more, have a look at link:https://github.com/beenotung/ionic-horizon-seed[Ionic Horizon Seed]

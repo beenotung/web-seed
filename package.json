@@ -1,5 +1,5 @@
 {
-  "name": "crm",
+  "name": "web-seed",
   "version": "0.0.0",
   "main": "dist/index.js",
   "watch": {
@@ -24,7 +24,7 @@
   "license": "BSD-3-Clause",
   "description": "Illustrate the routing algorithm of Link State Routing",
   "dependencies": {
-    "@beenotung/tslib": "^8.3.1"
+    "@beenotung/tslib": "^8.5.0"
   },
   "devDependencies": {
     "@angular/compiler": "^4.0.0",
