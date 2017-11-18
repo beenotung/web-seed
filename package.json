@@ -1,18 +1,18 @@
 {
   "name": "web-seed",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "index.js",
   "watch": {
     "lint": "src/index.ts"
   },
   "scripts": {
     "build": "run-s build:*",
     "build:ts": "tsc -p .",
-    "build:js": "mkdir -p dist && browserify build/index.js > index.js",
+    "build:js": "browserify build/index.js > index.js",
     "lint": "tslint -p .",
     "fix": "tslint -p . --fix",
     "pretest": "run-s build lint",
-    "test": "node dist/index.js",
+    "test": "node index.js",
     "preserve": "npm run build",
     "serve": "http-server -o -s -c-1",
     "watch": "run-p watch:*",
