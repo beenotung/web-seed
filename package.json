@@ -22,7 +22,7 @@
   },
   "author": "Beeno Tung",
   "license": "BSD-3-Clause",
-  "description": "Illustrate the routing algorithm of Link State Routing",
+  "description": "Seed for web client",
   "dependencies": {
     "@beenotung/tslib": "^8.5.0"
   },
